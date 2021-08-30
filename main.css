@@ -1,0 +1,113 @@
+:root {
+  --body-color: rgb(252, 252, 252);
+  --title-colors: #047FB8;
+  --text-color: #515151;
+  --little-circle-color: #C3F4FF;
+  --big-circle-color: #D7F8FF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Barlow', sans-serif;
+}
+
+header.header {
+  width: 100%;
+  height: auto;
+}
+
+div.header--container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+
+div.circle--big {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: calc(50% - 900px);
+  left: calc(50% - 600px);
+  width: 1240px;
+  height: 1240px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--big-circle-color);
+}
+
+div.circle--little {
+  position: absolute;
+  top: calc(50% - 325px);
+  left: calc(50% - 288px);
+  width: 608px;
+  height: 608px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--little-circle-color);
+}
+
+div.circle--little div.logo {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  width: 314px;
+  height: 316px;
+  background-image: url("./assets/svq-logo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.circle--big a {
+  position: absolute;
+  font-size: 3.8rem;
+  color: var(--title-colors);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+div.circle--big a.about-us {
+  top: 74%;
+  left: 11%;
+}
+
+div.circle--big a.our-work {
+  top: 74%;
+  right: 11%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+div.icon {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.broom {
+  width: 690px;
+  height: 680px;
+  background-image: url("./assets/broom.svg");
+  margin-top: 390px;
+}
+
+div.splash {
+  width: 400px;
+  height: 400px;
+  background-image: url("./assets/splash.svg");
+  position: absolute;
+  right: -5%;
+  margin-top: 250px;
+}
