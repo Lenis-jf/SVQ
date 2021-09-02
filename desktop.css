@@ -99,6 +99,10 @@ div.circle--big a.our-work {
   right: 11%;
 }
 
+div.main-text a.our-work--2 {
+  display: none;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -124,7 +128,7 @@ div.broom {
   background-image: url("./assets/broom.svg");
   background-position: left;
   left: 0;
-  transform: translateY(15%);
+  transform: translateY(40%);
 }
 
 div.splash {
@@ -154,13 +158,13 @@ div.main-text h1 {
   font-size: 6rem;
   font-weight: 600;
   line-height: 7.2rem;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 20px;
   color: var(--title-colors);
 }
 
 div.main-text h1.special-h1 {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 div.main-text p {
@@ -182,6 +186,7 @@ div.contact-icons-container {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-bottom: 60px;
   width: 300px;
   height: 200px;
 }

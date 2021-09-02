@@ -21,7 +21,6 @@ header.header {
   width: 100%;
   min-width: 320px;
   height: 150px;
-  overflow: hidden;
 }
 
 div.header--container {
@@ -29,7 +28,6 @@ div.header--container {
   width: 100%;
   height: inherit;
   justify-content: center;
-  overflow: hidden;
   position: relative;
 }
 
@@ -75,31 +73,26 @@ div.circle--little div.logo {
 }
 
 div.circle--big a {
-  position: absolute;
-  top: 54%;
-  z-index: 4;
-  font-size: 2rem;
-  color: var(--title-colors);
-  font-weight: 600;
+  display: none;
+}
+
+div.main-text a.our-work--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  background-color: var(--title-colors);
+  border-radius: 40px;
+  text-align: center;
+  color: white;
   text-decoration: none;
-  background: linear-gradient(var(--title-colors), var(--title-colors));
-  background-position: 0% 100%;
-  background-size: 0% 4px;
-  background-repeat: no-repeat;
-  transition: all 0.8s;
-}
-
-div.circle--big a:hover {
-  opacity: 0.8;
-  background-size: 100% 4px;
-}
-
-div.circle--big a.about-us {
-  left: 2%;
-}
-
-div.circle--big a.our-work {
-  right: 2%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 25px;
+  /* animation-name: "bouncing-out";
+  animation-duration: 1s;
+  animation-timing-function: ease-out; */
 }
 
 main {
