@@ -199,7 +199,7 @@ div.contact-icons-container a.contact-icon {
   transition: transform 0.3s;
 }
 
-div.contact-icons-container a.contact-icon:hover {
+div.contact-icons-container a.contact-icon:active {
   transform: scale(1.5);
 }
 
