@@ -76,103 +76,41 @@ div.circle--big a {
   display: none;
 }
 
-div.main-text a.our-work--2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 35px;
-  background-color: var(--title-colors);
-  border-radius: 40px;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-top: 25px;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  min-width: 320px;
-  height: 100%;
-  overflow: hidden;
-  max-height: 1230px;
-}
-
-div.icon {
-  position: absolute;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 1;
-}
-
-div.broom {
-  width: 300px;
-  height: 300px;
-  background-image: url("./assets/broom.svg");
-  background-position: left;
-  left: -5%;
-  transform: translateY(120%);
-}
-
-div.splash {
-  width: 300px;
-  height: 300px;
-  background-image: url("./assets/splash.svg");
-  transform: translateY(5%);
-  background-position: right;
-  right: 0;
-}
-
-div.main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-self: center;
-  align-items: center;
-  width: 100%;
-  max-width: 545px;
-  height: auto;
-  text-align: center;
-  z-index: 2;
-  padding-top: 20px;
-}
-
-div.main-text .text__container {
-  width: 80%;
-  max-width: 380px;
-}
-
-div.main-text h1 {
+main.main h1 {
   font-size: 3rem;
   font-weight: 600;
   margin-top: 40px;
-  margin-bottom: 20px;
   color: var(--title-colors);
+  text-align: center;
 }
 
-div.main-text h1.special-h1 {
+main.main p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 3.2rem;
+}
+
+main.main div.images-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main.main div.images-container img {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
   margin-top: 20px;
 }
 
-div.main-text p {
-  font-size: 1.8rem;
-  line-height: 3.2rem;
-  color: var(--text-color);
-  font-weight: 300;
-}
-
-div.main-text p.special-p {
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: #01A0C6;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+/* contact-icons */
 
 div.contact-icons-container {
   display: flex;
